@@ -50,6 +50,7 @@ footer h4 {
     color: #333;
     display: inline-block;
     animation: spin 6s linear infinite;
+    margin-top: 0.5rem;
   }
 
   @keyframes spin {
@@ -59,4 +60,14 @@ footer h4 {
     100% {
       transform: rotate(360deg);
     }
+  }
+
+  .info-box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #7700FF;
+    padding: 1rem 0;
+    border: 1px solid #7700FF;
+    border-radius: 10px;
   }
