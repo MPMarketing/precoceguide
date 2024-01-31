@@ -1,6 +1,7 @@
 * {
-    margin: 1rem auto;
+    margin: 0 auto;
     background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .vturb {
@@ -11,3 +12,51 @@
         width: 60vw;
     }
 }
+
+.watching-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    color: #7700FF;
+    font-weight: 700;
+    margin: 3rem 0;
+}
+
+#viewer-count {
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+}
+
+footer h4 {
+    background-color: white;
+}
+
+.loading-icon {
+    font-size: 24px;
+    color: #333;
+    display: inline-block;
+    animation: spin 6s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="./styles.css">
     <link rel="preload" href="https://scripts.converteai.net/4fc732ef-52cc-458d-82c3-f067ec86c320/players/63a3be3a1b7cb1000aced2a4/player.js" as="script">
     <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
@@ -21,7 +25,7 @@
         })(window,document,'script','dataLayer','GTM-KVQQ99CG');
     </script>
     <!-- End Google Tag Manager -->
-    <title>Franch</title>
+    <title>Precoce Guide 1.0</title>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -37,5 +41,33 @@
     <div class="vturb">
         <div id="vid_63a3be3a1b7cb1000aced2a4" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_63a3be3a1b7cb1000aced2a4" src="https://images.converteai.net/4fc732ef-52cc-458d-82c3-f067ec86c320/players/63a3be3a1b7cb1000aced2a4/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_63a3be3a1b7cb1000aced2a4" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_63a3be3a1b7cb1000aced2a4">var s=document.createElement("script");s.src="https://scripts.converteai.net/4fc732ef-52cc-458d-82c3-f067ec86c320/players/63a3be3a1b7cb1000aced2a4/player.js",s.async=!0,document.head.appendChild(s);</script>
     </div>
+    <div class="watching-now">
+        <p>▶️ Regarder maintenant: <span id="viewer-count"></span> personnes! ▶️</p>
+    </div>
+    <script>
+        // Simulação de atualização da contagem de espectadores a cada x segundos
+        function updateViewerCount() {
+          // Gere um número aleatório para simular a contagem de espectadores
+        //   var viewers = Math.min(Math.max(Math.floor(Math.random() * 1000), 617), 745);
+        var viewers = Math.floor(Math.random() * (869 - 645 + 1) + 645);
+          
+          // Atualize o texto na página com o novo valor simulado
+          document.getElementById('viewer-count').innerText = viewers;
+        }
+    
+        // Atualize imediatamente e, em seguida, a cada x segundos
+        updateViewerCount();
+        setInterval(updateViewerCount, 60000); // Atualize a cada x segundos
+      </script>
+
+    <div style="width: 60%;">
+        <p style="text-align: center; font-size: 1rem; color: white;">Rien qu’en regardant cette vidéo jusqu’à la fin, des milliers de personnes ont déjà changé leur vie!<br/><br/><span class="loading-icon">⚙️</span></p>
+    </div>
+
+    <h3 style="color: white; width: 60%; text-align: center; margin-top: 6rem; font-weight: 400;">©️ Créé par le <br/>Dr Antoine Laurent.<br/>👨‍⚕️</h3>
+
+    <footer>
+        <h4>Site Sécurisé et Anonyme 🔐</h4>
+    </footer>
 </body>
 </html>
