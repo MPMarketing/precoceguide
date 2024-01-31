@@ -1,0 +1,13 @@
+* {
+    margin: 1rem auto;
+    background-color: #141414;
+}
+
+.vturb {
+    width: 100vw;
+    margin-top: 3rem;
+
+    @media (min-width: 768px){
+        width: 60vw;
+    }
+}
